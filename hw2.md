@@ -19,13 +19,13 @@
 ```mermaid
 gantt
     section 研擬計畫
-    1:a1, 2022-10-01, 1d
+    1:a1, 2022-10-01, 5d
     section 任務分配
-    2:a2,after a1  , 4d
+    2:a2,after a1  , 10d
     section 取得硬體
-    3:a3,after a1  , 17d
+    3:a3,after a1  , 5d
     section 程式開發
-    4:a4,after a2  , 70d 
+    4:a4,after a2  , 35d 
     section 安裝軟體
     5:a5,after a3  , 10d
     section 程式測試
@@ -33,13 +33,13 @@ gantt
     section 撰寫使用手冊
     7:a7,after a5  , 25d
     section 轉換檔案
-    8:a8,after a5  , 20d
+    8:a8,after a5  , 8d
     section 系統測試
-    9:a9,after a6  , 25d
+    9:a9,after a6  , 2d
     section 使用者訓練
-    10:a10,after a7, 20d
+    10:a10,after a7, 30d
     section 使用者測試
-    11:a11,after a9, 25d
+    11:a11,after a9, 10d
 ```
 ---
 # 關鍵路徑
